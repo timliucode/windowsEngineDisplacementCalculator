@@ -2,7 +2,7 @@
 
 這是一個排氣量計算機
 
-![image](https://user-images.githubusercontent.com/27921307/211929412-d29c6236-6084-4cff-8cbb-d81bd0696db4.png)
+![image](https://user-images.githubusercontent.com/27921307/211929783-dcc430d5-ed9f-4cd6-b10f-c67f47691276.png)
 
 使用方法
 總共有三種
