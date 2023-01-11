@@ -1,11 +1,11 @@
 # EngineDisplacementCalculator
 
-這是一個排氣量計算機，快速選項提供了開發本App時下熱門改裝車款
+這是一個排氣量計算機，快速選項提供了開發本App時下熱門白牌改裝車款
+選擇後自動帶入缸徑行程
 
 ![image](https://user-images.githubusercontent.com/27921307/211929893-0dce63d8-a32f-4969-90bb-6c6a9c0ef9d6.png)
 
-使用方法
-總共有三種
+有三種使用方式
 1.計算排量
 已知缸徑及行程
 2.計算缸徑
