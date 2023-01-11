@@ -52,8 +52,9 @@
             this.multiplierCC = new System.Windows.Forms.TextBox();
             this.lb7 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label10 = new System.Windows.Forms.Label();
+            this.percent = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.clearbutton = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
@@ -290,18 +291,18 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 21);
+            this.label4.Location = new System.Drawing.Point(6, 21);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 15);
+            this.label4.Size = new System.Drawing.Size(31, 15);
             this.label4.TabIndex = 17;
-            this.label4.Text = "相差倍率";
+            this.label4.Text = "相差";
             // 
             // multiplier
             // 
-            this.multiplier.Location = new System.Drawing.Point(73, 18);
+            this.multiplier.Location = new System.Drawing.Point(43, 18);
             this.multiplier.Name = "multiplier";
             this.multiplier.ReadOnly = true;
-            this.multiplier.Size = new System.Drawing.Size(81, 23);
+            this.multiplier.Size = new System.Drawing.Size(78, 23);
             this.multiplier.TabIndex = 18;
             // 
             // multiplierCC
@@ -315,17 +316,18 @@
             // lb7
             // 
             this.lb7.AutoSize = true;
-            this.lb7.Location = new System.Drawing.Point(193, 21);
+            this.lb7.Location = new System.Drawing.Point(230, 21);
             this.lb7.Name = "lb7";
-            this.lb7.Size = new System.Drawing.Size(55, 15);
+            this.lb7.Size = new System.Drawing.Size(18, 15);
             this.lb7.TabIndex = 20;
-            this.lb7.Text = "相差排量";
+            this.lb7.Text = "%";
             // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.SystemColors.Control;
-            this.groupBox2.Controls.Add(this.label10);
+            this.groupBox2.Controls.Add(this.percent);
             this.groupBox2.Controls.Add(this.label9);
+            this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.multiplierCC);
             this.groupBox2.Controls.Add(this.lb7);
             this.groupBox2.Controls.Add(this.multiplier);
@@ -337,14 +339,13 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "差值";
             // 
-            // label10
+            // percent
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(156, 21);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(19, 15);
-            this.label10.TabIndex = 35;
-            this.label10.Text = "倍";
+            this.percent.Location = new System.Drawing.Point(152, 18);
+            this.percent.Name = "percent";
+            this.percent.ReadOnly = true;
+            this.percent.Size = new System.Drawing.Size(72, 23);
+            this.percent.TabIndex = 36;
             // 
             // label9
             // 
@@ -354,6 +355,15 @@
             this.label9.Size = new System.Drawing.Size(19, 15);
             this.label9.TabIndex = 34;
             this.label9.Text = "cc";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(127, 21);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(19, 15);
+            this.label10.TabIndex = 35;
+            this.label10.Text = "倍";
             // 
             // comboBox1
             // 
@@ -618,5 +628,6 @@
         private Label label12;
         private Label label13;
         private LinkLabel linkLabel1;
+        private TextBox percent;
     }
 }

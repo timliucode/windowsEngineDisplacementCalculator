@@ -140,7 +140,8 @@ namespace WinFormsApp5
 
             multiplier.Text = (newcapf / capf).ToString("0.00");    //計算倍率
             multiplierCC.Text = (newcapf - capf).ToString("0.00");  //計算cc數
-            
+            percent.Text = ((newcapf - capf) / capf * 100).ToString("0.00"); //計算百分比
+
             if (comboBox2.SelectedIndex == 0) //選擇缸徑
             {
                 label11.Text = "mm";
@@ -196,7 +197,9 @@ namespace WinFormsApp5
             newcap.Text = "";
             multiplier.Text = "";
             multiplierCC.Text = "";
+            percent.Text = "";
             domainUpDown1.SelectedIndex = 8;
+
             
             foreach (var radioButton in groupBox1.Controls.OfType<RadioButton>()) //使用foreach遞迴把groupbox1的radioButton取消勾選
             {
