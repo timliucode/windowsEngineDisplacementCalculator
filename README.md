@@ -17,3 +17,7 @@
 
 改缸可設定缸徑還是搪缸(算增加條數的)
 改曲軸可以設定拉條還是行程自訂
+
+基於.NET 6.0開發，請注意有無runtime!
+下載環境這裡請
+https://download.visualstudio.microsoft.com/download/pr/6ba69569-ee5e-460e-afd8-79ae3cd4617b/16a385a4fab2c5806f50f49f5581b4fd/dotnet-sdk-7.0.102-win-x64.exe
