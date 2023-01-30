@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.bore = new System.Windows.Forms.TextBox();
             this.length = new System.Windows.Forms.TextBox();
             this.newbore = new System.Windows.Forms.TextBox();
@@ -572,6 +573,7 @@
             this.Controls.Add(this.newbore);
             this.Controls.Add(this.length);
             this.Controls.Add(this.bore);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "排氣量計算機";
             this.Load += new System.EventHandler(this.Form1_Load);
