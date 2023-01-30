@@ -233,7 +233,7 @@ namespace WinFormsApp5
             //string target = "C:\\Program Files\\Microsoft Visual Studio\\INSTALL.HTM";
             try
             {
-                System.Diagnostics.Process.Start("explorer.exe","https://github.com/yantingLiu");
+                System.Diagnostics.Process.Start("explorer.exe", "https://github.com/timliucode");
             }
             catch (System.ComponentModel.Win32Exception noBrowser)
             {
